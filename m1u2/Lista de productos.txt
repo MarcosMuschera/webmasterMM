@@ -6,3 +6,5 @@ Fideos
 Tomate
 Sal
 Azucar
+Mermelada
+Manteca
