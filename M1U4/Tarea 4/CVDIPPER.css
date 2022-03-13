@@ -1,0 +1,38 @@
+img{
+    border: 5px solid black;
+}
+
+h1{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    width: 200px;
+    background-color: azure;
+
+}
+
+h2{
+    text-transform: uppercase;
+    font-style: italic;
+
+}
+
+h4{
+    text-transform: uppercase;
+
+}
+
+p{
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#contacto:hover{
+    background-color: aquamarine;
+    width: 305px;
+
+}
+
+#contacto a{
+    background-color: goldenrod;
+}
