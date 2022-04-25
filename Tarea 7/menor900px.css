@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	padding: 10px;
+	margin: 10px;
+}
+.parte1 {
+	width: 600px;
+	background: #8FA68E;
+	margin-right:auto;
+	margin-left:auto;
+	overflow: hidden;
+}
+nav {
+	background: #f0947a;
+	float: left;
+	width: 150px;
+	height: 230px;
+	border: solid black 0.05em;
+}
+ul {
+	list-style-type:none;
+}
+a {
+	padding: 0.5em;
+	display: block;
+	color:black;
+
+}
+.parte2 {
+	border: solid black 0.05em;
+	float: none;
+	margin-left: 100px;
+	width: 800px;
+	height: 230px;
+	background-color: #F1F2C0;
+	padding-left: 3em;
+}
+h2{
+	margin-left: 20px;
+}
+
+aside {
+	border: solid black 0.05em;
+	float: none;
+	margin-left: 0;
+	width: 100%;
+	padding: 0.9em;
+}
+
+

@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	padding: 0;
+	margin: 0;
+}
+.parte1 {
+	width: 100%;
+	background: #8FA68E;	
+}
+nav {
+	background: orange;
+	float: none;
+	width: 100%;
+}
+ul {
+	margin: 0%;
+
+}
+a {
+	padding: 0.2em;
+	display: block;
+	color: black;
+}
+.parte2 {
+	border-top: solid black 0.05em;
+	float: none;
+	margin-left: 0;
+	width: 100%;
+	padding: 0.6em;
+}
+aside {
+	border-top: solid black 0.05em;
+	float: none;
+	margin-left: 0;
+	width: 100%;
+	padding: 0.6em;
+}
+
+
