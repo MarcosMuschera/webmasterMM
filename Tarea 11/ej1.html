@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="ej1.css">
+</head>
+<body class="body">
+    <p>
+        <button class="boton" id="rojo">Rojo</button>
+        &nbsp;
+        <button class="boton" id="azul">Azul</button>
+        &nbsp;
+        <button class="boton" id="verde">Verde</button>
+    </p>
+
+    <script>
+        var body = document.getElementsByClassName('body')[0];
+        var rojo = document.getElementById('rojo');
+        var azul = document.getElementById('azul');
+        var verde = document.getElementById('verde');
+        
+        rojo.addEventListener('click', function() {
+            body.classList.toggle('rojo');
+            body.classList.remove('azul', 'verde');
+        });
+
+        azul.addEventListener('click', function () {
+            body.classList.toggle('azul');
+            body.classList.remove('rojo', 'verde');
+        });
+
+        verde.addEventListener('click', function () {
+            body.classList.toggle('verde');
+            body.classList.remove('azul', 'rojo');
+        });
+    </script>
+</body>
+</html>
+

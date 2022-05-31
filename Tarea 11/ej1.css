@@ -1,0 +1,17 @@
+.boton {
+    padding: 20px;
+    cursor: pointer;
+}
+
+.body.rojo {
+    background: red;
+}
+
+.body.azul {
+    background: blue;
+}
+
+.body.verde {
+    background: green;
+}
+      
