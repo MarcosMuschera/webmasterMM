@@ -1,0 +1,170 @@
+/* font family: "Open Sans"*/
+
+body {
+    font-family: "open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: rgb(198, 255, 198);
+}
+
+header {
+    background-color: green;
+    padding: 1em 0;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+}
+
+nav {
+    background-color: rgb(108, 189, 41);
+    margin-bottom: 2em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 16.3%;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+nav ul li a.activo {
+    background-color: green;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.holder2 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.holder3 {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: black;
+    font-weight: 400;
+    margin: 0 1 0em;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+/* inicio Home */
+
+.homeimg {
+    margin-bottom: 1.5em;
+}
+
+.columnas {
+    overflow: hidden;
+}
+
+.bienvenidos, .testimonios {
+    box-sizing: border-box;
+}
+
+.bienvenidos {
+    width: 75%;
+    padding-right: 2em;
+}
+
+/* Fin Home */
+
+/* In Contacto */
+
+.columna{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0.6em;
+}
+
+.columna .left{
+    border-right: 1px solid gray;
+}
+
+.columna .right p{
+    font-size: 0.9em;
+}
+
+.columna.right ul li{
+    font-size: 0.8em;
+}
+
+.formulario label{
+    vertical-align: top;
+    width: 20%;
+    display: inline-block;
+}
+
+.formulario input,
+.formulario textarea{
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 0.4em 0.6em;
+    font-size: 0.8em;
+    width: 70%;
+}
+
+.formulario input[type="submit"]{
+    background-color: #6da9ed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 1em;
+    width: auto;
+    cursor: pointer;
+}
+
+.formulario textarea{
+    height: 10em;
+    resize: none;
+}
+
+.formulairo .acciones{
+    text-align: center;
+}
+
+
+
+/* Fin Cont */
